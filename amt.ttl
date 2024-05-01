@@ -1,103 +1,64 @@
-@prefix amttest: <http://leiza-scit.sparqlunicorn.cloud/amttest/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-
-<http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa>
-  amttest:instanceOf <http://mainzed.org/Interest> ;
-  rdfs:label "Java" .
-
-amttest:CfwDYXMFVzJl
-  amttest:instanceOf <http://mainzed.org/Interest> ;
-  rdfs:label "coding" .
-
-amttest:CIcGjXLgxqlM
-  amttest:instanceOf <http://mainzed.org/Person> ;
-  rdfs:label "Fynn" .
-
-amttest:cfiMhcFyoPPK
-  amttest:instanceOf <http://mainzed.org/Person> ;
-  rdfs:label "Ben" .
-
-[]
-  rdf:subject amttest:CIcGjXLgxqlM ;
-  rdf:predicate <http://mainzed.org/interestedIn> ;
-  rdf:object amttest:iMBVapmCyPIa ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:cfiMhcFyoPPK ;
-  rdf:predicate <http://mainzed.org/interestedIn> ;
-  rdf:object amttest:iMBVapmCyPIa ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CfwDYXMFVzJl ;
-  rdf:predicate <http://mainzed.org/superInterestOf> ;
-  rdf:object amttest:iMBVapmCyPIa ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:iMBVapmCyPIa ;
-  rdf:predicate <http://mainzed.org/interestOf> ;
-  rdf:object amttest:CIcGjXLgxqlM ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:iMBVapmCyPIa ;
-  rdf:predicate <http://mainzed.org/interestOf> ;
-  rdf:object amttest:cfiMhcFyoPPK ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:iMBVapmCyPIa ;
-  rdf:predicate <http://mainzed.org/subInterestOf> ;
-  rdf:object amttest:CfwDYXMFVzJl ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CIcGjXLgxqlM ;
-  rdf:predicate <http://mainzed.org/connectedWith> ;
-  rdf:object amttest:CIcGjXLgxqlM ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CIcGjXLgxqlM ;
-  rdf:predicate <http://mainzed.org/connectedWith> ;
-  rdf:object amttest:cfiMhcFyoPPK ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:cfiMhcFyoPPK ;
-  rdf:predicate <http://mainzed.org/connectedWith> ;
-  rdf:object amttest:CIcGjXLgxqlM ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:cfiMhcFyoPPK ;
-  rdf:predicate <http://mainzed.org/connectedWith> ;
-  rdf:object amttest:cfiMhcFyoPPK ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CIcGjXLgxqlM ;
-  rdf:predicate <http://mainzed.org/interestedIn> ;
-  rdf:object amttest:CfwDYXMFVzJl ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:cfiMhcFyoPPK ;
-  rdf:predicate <http://mainzed.org/interestedIn> ;
-  rdf:object amttest:CfwDYXMFVzJl ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CfwDYXMFVzJl ;
-  rdf:predicate <http://mainzed.org/interestOf> ;
-  rdf:object amttest:CIcGjXLgxqlM ;
-  amttest:weight 0 .
-
-[]
-  rdf:subject amttest:CfwDYXMFVzJl ;
-  rdf:predicate <http://mainzed.org/interestOf> ;
-  rdf:object amttest:cfiMhcFyoPPK ;
-  amttest:weight 0 .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf> <http://mainzed.org/Interest> .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> <http://www.w3.org/2000/01/rdf-schema#label> "Java" .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf> <http://mainzed.org/Interest> .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> <http://www.w3.org/2000/01/rdf-schema#label> "coding" .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf> <http://mainzed.org/Person> .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> <http://www.w3.org/2000/01/rdf-schema#label> "Fynn" .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf> <http://mainzed.org/Person> .
+<http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> <http://www.w3.org/2000/01/rdf-schema#label> "Ben" .
+_:GirGdBYzsJwM <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:GirGdBYzsJwM <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestedIn> .
+_:GirGdBYzsJwM <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:GirGdBYzsJwM <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:pbJGSFwcZenM <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:pbJGSFwcZenM <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestedIn> .
+_:pbJGSFwcZenM <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:pbJGSFwcZenM <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:JYBIRVXovROS <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:JYBIRVXovROS <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/superInterestOf> .
+_:JYBIRVXovROS <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:JYBIRVXovROS <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:izYqNBNnVUAm <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:izYqNBNnVUAm <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestOf> .
+_:izYqNBNnVUAm <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:izYqNBNnVUAm <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.9"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ligVDptvpVQU <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:ligVDptvpVQU <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestOf> .
+_:ligVDptvpVQU <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:ligVDptvpVQU <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.7"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:lVUaoNGVRRWF <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/iMBVapmCyPIa> .
+_:lVUaoNGVRRWF <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/subInterestOf> .
+_:lVUaoNGVRRWF <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:lVUaoNGVRRWF <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:OnPPcxucHJiw <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:OnPPcxucHJiw <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/connectedWith> .
+_:OnPPcxucHJiw <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:OnPPcxucHJiw <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.8"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:oGKOQIcgzjeL <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:oGKOQIcgzjeL <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/connectedWith> .
+_:oGKOQIcgzjeL <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:oGKOQIcgzjeL <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.6000000000000001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:fznPDxtfOSrT <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:fznPDxtfOSrT <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/connectedWith> .
+_:fznPDxtfOSrT <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:fznPDxtfOSrT <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.6000000000000001"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:ZAFCvMNwlRaP <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:ZAFCvMNwlRaP <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/connectedWith> .
+_:ZAFCvMNwlRaP <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:ZAFCvMNwlRaP <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.3999999999999999"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:nTzfKExpsxkq <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:nTzfKExpsxkq <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestedIn> .
+_:nTzfKExpsxkq <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:nTzfKExpsxkq <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:IekaNzUNzEsS <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:IekaNzUNzEsS <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestedIn> .
+_:IekaNzUNzEsS <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:IekaNzUNzEsS <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:WwBhkNUqKvRt <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:WwBhkNUqKvRt <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestOf> .
+_:WwBhkNUqKvRt <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/CIcGjXLgxqlM> .
+_:WwBhkNUqKvRt <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:OovWUCVBjJTU <http://www.w3.org/1999/02/22-rdf-syntax-ns#subject> <http://leiza-scit.sparqlunicorn.cloud/amttest/CfwDYXMFVzJl> .
+_:OovWUCVBjJTU <http://www.w3.org/1999/02/22-rdf-syntax-ns#predicate> <http://mainzed.org/interestOf> .
+_:OovWUCVBjJTU <http://www.w3.org/1999/02/22-rdf-syntax-ns#object> <http://leiza-scit.sparqlunicorn.cloud/amttest/cfiMhcFyoPPK> .
+_:OovWUCVBjJTU <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> "0.5"^^<http://www.w3.org/2001/XMLSchema#integer> .
