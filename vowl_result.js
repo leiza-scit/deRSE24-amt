@@ -30,8 +30,7 @@ var vowlresult={
    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
    "xsd": "http://www.w3.org/2001/XMLSchema#",
-   "xml": "http://www.w3.org/XML/1998/namespace",
-   "amttest": "http://leiza-scit.sparqlunicorn.cloud/amttest/"
+   "xml": "http://www.w3.org/XML/1998/namespace"
   },
   "baseIris": [
    "https://brickschema.org/schema/Brick#",
@@ -62,8 +61,7 @@ var vowlresult={
    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
    "http://www.w3.org/2000/01/rdf-schema#",
    "http://www.w3.org/2001/XMLSchema#",
-   "http://www.w3.org/XML/1998/namespace",
-   "http://leiza-scit.sparqlunicorn.cloud/amttest/"
+   "http://www.w3.org/XML/1998/namespace"
   ],
   "languages": []
  },

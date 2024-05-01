@@ -413,19 +413,19 @@ wgs: a voaf:Vocabulary ;
 <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> a void:Dataset,
         adms:Asset ;
     rdfs:label "AMT_Example"@en ;
-    vext:averageLiteralLength 1 ;
+    vext:averageLiteralLength 5 ;
     vext:averageObjectIRILength 49 ;
     vext:averagePropertyIRILength 50 ;
     vext:averageSubjectIRILength 40 ;
     vext:datatypes 1 ;
     vext:distinctBlankNodes 14 ;
-    vext:distinctIRIReferences 40 ;
-    vext:distinctLiterals 5 ;
-    vext:distinctRDFNodes 59 ;
+    vext:distinctIRIReferences 45 ;
+    vext:distinctLiterals 10 ;
+    vext:distinctRDFNodes 69 ;
     vext:languages 0 ;
     vext:propertyClasses 0 ;
     dc:language <http://www.lexvo.org/page/iso639-1/en> ;
-    dcterms:modified "2024-05-01T17:52:42"^^xsd:dateTime ;
+    dcterms:modified "2024-05-01T18:28:54"^^xsd:dateTime ;
     dcterms:subject <http://dbpedia.org/resource/Location>,
         <http://dbpedia.org/resource/OGC_GeoSPARQL>,
         <http://dbpedia.org/resource/Time>,
@@ -436,7 +436,7 @@ wgs: a voaf:Vocabulary ;
     vann:preferredNamespaceUri "http://leiza-scit.sparqlunicorn.cloud/amttest/"^^xsd:anyURI ;
     void:classes 0 ;
     void:dataDump <https://leiza-scit.github.io/deRSE24-amt//index.ttl> ;
-    void:distinctObjects 16 ;
+    void:distinctObjects 21 ;
     void:distinctSubjects 18 ;
     void:entities 19 ;
     void:feature <http://www.w3.org/ns/formats/RDFa>,

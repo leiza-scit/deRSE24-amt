@@ -1,0 +1,13 @@
+@prefix ns1: <http://leiza-scit.sparqlunicorn.cloud/amttest/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    ns1:weight "0.5"^^xsd:integer ;
+    void:inDataset ns1:AMT_Example ;
+    rdf:object ns1:CIcGjXLgxqlM ;
+    rdf:predicate <http://mainzed.org/interestOf> ;
+    rdf:subject ns1:CfwDYXMFVzJl .
+
