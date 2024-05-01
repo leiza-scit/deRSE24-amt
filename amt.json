@@ -1,0 +1,146 @@
+{
+    "nodes": [
+        {
+            "id": "http://academic-meta-tool.xyz/vocab#iMBVapmCyPIa",
+            "label": "Java",
+            "concept": "http://mainzed.org/Interest",
+            "length": null,
+            "color": {
+                "background": "pink",
+                "border": "red",
+                "highlight": {
+                    "background": "white",
+                    "border": "black"
+                }
+            },
+            "shape": "dot",
+            "font": {
+                "size": 16,
+                "face": "monospace"
+            },
+            "size": 13
+        },
+        {
+            "id": "http://academic-meta-tool.xyz/vocab#CfwDYXMFVzJl",
+            "label": "coding",
+            "concept": "http://mainzed.org/Interest",
+            "length": null,
+            "color": {
+                "background": "pink",
+                "border": "red",
+                "highlight": {
+                    "background": "white",
+                    "border": "black"
+                }
+            },
+            "shape": "dot",
+            "font": {
+                "size": 16,
+                "face": "monospace"
+            },
+            "size": 13
+        },
+        {
+            "id": "http://academic-meta-tool.xyz/vocab#CIcGjXLgxqlM",
+            "label": "Fynn",
+            "concept": "http://mainzed.org/Person",
+            "length": null,
+            "color": {
+                "background": "lightblue",
+                "border": "blue",
+                "highlight": {
+                    "background": "white",
+                    "border": "black"
+                }
+            },
+            "shape": "dot",
+            "font": {
+                "size": 16,
+                "face": "monospace"
+            },
+            "size": 20
+        },
+        {
+            "id": "http://academic-meta-tool.xyz/vocab#cfiMhcFyoPPK",
+            "label": "Ben",
+            "concept": "http://mainzed.org/Person",
+            "length": null,
+            "color": {
+                "background": "lightblue",
+                "border": "blue",
+                "highlight": {
+                    "background": "white",
+                    "border": "black"
+                }
+            },
+            "shape": "dot",
+            "font": {
+                "size": 16,
+                "face": "monospace"
+            },
+            "size": 20
+        }
+    ],
+    "edges": [
+        {
+            "role": "http://mainzed.org/interestedIn",
+            "from": "http://academic-meta-tool.xyz/vocab#CIcGjXLgxqlM",
+            "to": "http://academic-meta-tool.xyz/vocab#iMBVapmCyPIa",
+            "width": 0.9,
+            "arrowStrikethrough": false,
+            "chosen": false,
+            "color": {
+                "color": "green",
+                "highlight": "black"
+            },
+            "length": 180,
+            "smooth": false,
+            "arrows": "to",
+            "label": "int: 0.9",
+            "font": {
+                "align": "middle",
+                "size": 16,
+                "color": "black",
+                "face": "monospace"
+            },
+            "id": "f909d491-f96b-4dec-8caf-31ca89218a5d"
+        },
+        {
+            "role": "http://mainzed.org/interestedIn",
+            "from": "http://academic-meta-tool.xyz/vocab#cfiMhcFyoPPK",
+            "to": "http://academic-meta-tool.xyz/vocab#iMBVapmCyPIa",
+            "width": 0.7,
+            "arrowStrikethrough": false,
+            "chosen": false,
+            "color": {
+                "color": "green",
+                "highlight": "black"
+            },
+            "length": 180,
+            "smooth": false,
+            "arrows": "to",
+            "label": "int: 0.7",
+            "font": {
+                "align": "middle",
+                "size": 16,
+                "color": "black",
+                "face": "monospace"
+            },
+            "id": "4fbc12b9-ca36-4bef-a39e-6d6030e2e4e3"
+        },
+        {
+            "role": "http://mainzed.org/superInterestOf",
+            "from": "http://academic-meta-tool.xyz/vocab#CfwDYXMFVzJl",
+            "to": "http://academic-meta-tool.xyz/vocab#iMBVapmCyPIa",
+            "width": 0.5,
+            "arrowStrikethrough": false,
+            "chosen": false,
+            "color": {
+                "color": "red",
+                "highlight": "black"
+            },
+            "arrows": "to",
+            "id": "4a352811-22f4-4f6a-9e68-940eec755c39"
+        }
+    ]
+}
