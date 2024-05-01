@@ -1,0 +1,16 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_mainzed.org_> a void:Linkset,
+        <http://www.w3.org/ns/ldp#Resource>,
+        <https://www.iana.org/assignments/media-types/text/turtle#Resource> ;
+    rdfs:label "Linkset: AMT_Example - mainzed.org"@en ;
+    void:linkPredicate <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf>,
+        rdf:predicate ;
+    void:objectsTarget <http://mainzed.org/> ;
+    void:subjectsTarget <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> ;
+    void:triples 4,
+        14 .
+

@@ -1,0 +1,494 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix brick: <https://brickschema.org/schema/Brick#> .
+@prefix csvw: <http://www.w3.org/ns/csvw#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcam: <http://purl.org/dc/dcam/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dcmitype: <http://purl.org/dc/dcmitype/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.opengis.net/ont/geosparql#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prof: <http://www.w3.org/ns/dx/prof/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix vext: <http://ldf.fi/void-ext#> .
+@prefix voaf: <http://purl.org/vocommons/voaf#> .
+@prefix void: <http://rdfs.org/ns/void#> .
+@prefix wgs: <https://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_mainzed.org_> a void:Linkset ;
+    rdfs:label "Linkset: AMT_Example - mainzed.org"@en ;
+    void:linkPredicate <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf>,
+        rdf:predicate ;
+    void:objectsTarget <http://mainzed.org/> ;
+    void:subjectsTarget <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> ;
+    void:triples 4,
+        14 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/adms_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/adms# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/brick_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://brickschema.org/schema/Brick# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/csvw_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/csvw# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/dc_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/elements/1.1/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/dcam_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcam/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/dcat_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dcat# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/dcmitype_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/dcmitype/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/dcterms_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/dc/terms/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/doap_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://usefulinc.com/ns/doap# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/foaf_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://xmlns.com/foaf/0.1/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/geo_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.opengis.net/ont/geosparql# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/odrl_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/odrl/2/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/org_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/org# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/owl_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2002/07/owl# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/prof_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/dx/prof/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/prov_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/prov# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/qb_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/linked-data/cube# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/rdf_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/1999/02/22-rdf-syntax-ns# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/rdfs_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2000/01/rdf-schema# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/schema_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://schema.org/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/sh_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/shacl# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/skos_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2004/02/skos/core# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/sosa_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/sosa/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/ssn_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/ns/ssn/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/time_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2006/time# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/vann_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocab/vann/ in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/vext_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://ldf.fi/void-ext# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/voaf_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://purl.org/vocommons/voaf# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/void_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://rdfs.org/ns/void# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/wgs_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary https://www.w3.org/2003/01/geo/wgs84_pos# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/xml_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/XML/1998/namespace in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/xsd_AMT_Example_occ> a voaf:DatasetOccurrence ;
+    rdfs:label "Occurrences of vocabulary http://www.w3.org/2001/XMLSchema# in AMT_Example" ;
+    voaf:inDataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<https://github.com/leiza-scit/deRSE24-amt> a adms:AssetRepository ;
+    rdfs:label "Repository for AMT_Example"@en ;
+    dcat:accessURL "https://github.com/leiza-scit/deRSE24-amt"^^xsd:anyURI ;
+    dcat:dataset <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> .
+
+<http://dbpedia.org/resource/Location> rdfs:label "Location"@en .
+
+<http://dbpedia.org/resource/OGC_GeoSPARQL> rdfs:label "OGC GeoSPARQL"@en .
+
+<http://dbpedia.org/resource/Time> rdfs:label "Time Data"@en .
+
+vext: a voaf:Vocabulary ;
+    rdfs:label "vext Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vext"^^xsd:string ;
+    vann:preferredNamespaceUri "http://ldf.fi/void-ext#"^^xsd:anyURI ;
+    voaf:usageInDataset vext:_AMT_Example_occ .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_dist_ttl> a adms:AssetDistribution ;
+    rdfs:label "AMT_Example TTL Distribution"@en ;
+    dcat:downloadURL "https://leiza-scit.github.io/deRSE24-amt//index.ttl"^^xsd:anyURI ;
+    dcat:mediaType <http://www.w3.org/ns/formats/Turtle> .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_instanceOf> a void:Dataset ;
+    rdfs:label "Property Partition: instanceOf"@en ;
+    void:property <http://leiza-scit.sparqlunicorn.cloud/amttest/instanceOf> ;
+    void:triples 4 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_label> a void:Dataset ;
+    rdfs:label "Property Partition: label"@en ;
+    void:property rdfs:label ;
+    void:triples 4 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_object> a void:Dataset ;
+    rdfs:label "Property Partition: object"@en ;
+    void:property rdf:object ;
+    void:triples 14 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_predicate> a void:Dataset ;
+    rdfs:label "Property Partition: predicate"@en ;
+    void:property rdf:predicate ;
+    void:triples 14 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_subject> a void:Dataset ;
+    rdfs:label "Property Partition: subject"@en ;
+    void:property rdf:subject ;
+    void:triples 14 .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_weight> a void:Dataset ;
+    rdfs:label "Property Partition: weight"@en ;
+    void:property <http://leiza-scit.sparqlunicorn.cloud/amttest/weight> ;
+    void:triples 14 .
+
+dcam: a voaf:Vocabulary ;
+    rdfs:label "dcam Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcam"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcam/"^^xsd:anyURI ;
+    voaf:usageInDataset dcam:_AMT_Example_occ .
+
+dcmitype: a voaf:Vocabulary ;
+    rdfs:label "dcmitype Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcmitype"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/dcmitype/"^^xsd:anyURI ;
+    voaf:usageInDataset dcmitype:_AMT_Example_occ .
+
+dc: a voaf:Vocabulary ;
+    rdfs:label "dc Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dc"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/elements/1.1/"^^xsd:anyURI ;
+    voaf:usageInDataset dc:_AMT_Example_occ .
+
+dcterms: a voaf:Vocabulary ;
+    rdfs:label "dcterms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcterms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/dc/terms/"^^xsd:anyURI ;
+    voaf:usageInDataset dcterms:_AMT_Example_occ .
+
+qb: a voaf:Vocabulary ;
+    rdfs:label "qb Vocabulary"@en ;
+    vann:preferredNamespacePrefix "qb"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/linked-data/cube#"^^xsd:anyURI ;
+    voaf:usageInDataset qb:_AMT_Example_occ .
+
+vann: a voaf:Vocabulary ;
+    rdfs:label "vann Vocabulary"@en ;
+    vann:preferredNamespacePrefix "vann"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocab/vann/"^^xsd:anyURI ;
+    voaf:usageInDataset vann:_AMT_Example_occ .
+
+voaf: a voaf:Vocabulary ;
+    rdfs:label "voaf Vocabulary"@en ;
+    vann:preferredNamespacePrefix "voaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://purl.org/vocommons/voaf#"^^xsd:anyURI ;
+    voaf:usageInDataset voaf:_AMT_Example_occ .
+
+void: a voaf:Vocabulary ;
+    rdfs:label "Vocabulary of Interlinked Datasets (VoID)"@en ;
+    vann:preferredNamespacePrefix "void"^^xsd:string ;
+    vann:preferredNamespaceUri "http://rdfs.org/ns/void#"^^xsd:anyURI ;
+    voaf:usageInDataset void:_AMT_Example_occ .
+
+doap: a voaf:Vocabulary ;
+    rdfs:label "doap Vocabulary"@en ;
+    vann:preferredNamespacePrefix "doap"^^xsd:string ;
+    vann:preferredNamespaceUri "http://usefulinc.com/ns/doap#"^^xsd:anyURI ;
+    voaf:usageInDataset doap:_AMT_Example_occ .
+
+geo: a voaf:Vocabulary ;
+    rdfs:label "The GeoSPARQL Ontology"@en ;
+    vann:preferredNamespacePrefix "geo"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.opengis.net/ont/geosparql#"^^xsd:anyURI ;
+    voaf:usageInDataset geo:_AMT_Example_occ .
+
+rdf: a voaf:Vocabulary ;
+    rdfs:label "The RDF Concepts Vocabulary (RDF)"@en ;
+    vann:preferredNamespacePrefix "rdf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/1999/02/22-rdf-syntax-ns#"^^xsd:anyURI ;
+    voaf:usageInDataset rdf:_AMT_Example_occ .
+
+rdfs: a voaf:Vocabulary ;
+    rdfs:label "The RDF Schema vocabulary (RDFS)"@en ;
+    vann:preferredNamespacePrefix "rdfs"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2000/01/rdf-schema#"^^xsd:anyURI ;
+    voaf:usageInDataset rdfs:_AMT_Example_occ .
+
+xsd: a voaf:Vocabulary ;
+    rdfs:label "XML Schema"@en ;
+    vann:preferredNamespacePrefix "xsd"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2001/XMLSchema#"^^xsd:anyURI ;
+    voaf:usageInDataset xsd:_AMT_Example_occ .
+
+owl: a voaf:Vocabulary ;
+    rdfs:label "Web Ontology Language 2 Vocabulary"@en ;
+    vann:preferredNamespacePrefix "owl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2002/07/owl#"^^xsd:anyURI ;
+    voaf:usageInDataset owl:_AMT_Example_occ .
+
+skos: a voaf:Vocabulary ;
+    rdfs:label "skos Vocabulary"@en ;
+    vann:preferredNamespacePrefix "skos"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2004/02/skos/core#"^^xsd:anyURI ;
+    voaf:usageInDataset skos:_AMT_Example_occ .
+
+time: a voaf:Vocabulary ;
+    rdfs:label "time Vocabulary"@en ;
+    vann:preferredNamespacePrefix "time"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/2006/time#"^^xsd:anyURI ;
+    voaf:usageInDataset time:_AMT_Example_occ .
+
+xml: a voaf:Vocabulary ;
+    rdfs:label "xml Vocabulary"@en ;
+    vann:preferredNamespacePrefix "xml"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/XML/1998/namespace"^^xsd:anyURI ;
+    voaf:usageInDataset xml:_AMT_Example_occ .
+
+adms: a voaf:Vocabulary ;
+    rdfs:label "adms Vocabulary"@en ;
+    vann:preferredNamespacePrefix "adms"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/adms#"^^xsd:anyURI ;
+    voaf:usageInDataset adms:_AMT_Example_occ .
+
+csvw: a voaf:Vocabulary ;
+    rdfs:label "csvw Vocabulary"@en ;
+    vann:preferredNamespacePrefix "csvw"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/csvw#"^^xsd:anyURI ;
+    voaf:usageInDataset csvw:_AMT_Example_occ .
+
+dcat: a voaf:Vocabulary ;
+    rdfs:label "DCAT Vocabulary"@en ;
+    vann:preferredNamespacePrefix "dcat"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dcat#"^^xsd:anyURI ;
+    voaf:usageInDataset dcat:_AMT_Example_occ .
+
+prof: a voaf:Vocabulary ;
+    rdfs:label "prof Vocabulary"@en ;
+    vann:preferredNamespacePrefix "prof"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/dx/prof/"^^xsd:anyURI ;
+    voaf:usageInDataset prof:_AMT_Example_occ .
+
+odrl: a voaf:Vocabulary ;
+    rdfs:label "odrl Vocabulary"@en ;
+    vann:preferredNamespacePrefix "odrl"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/odrl/2/"^^xsd:anyURI ;
+    voaf:usageInDataset odrl:_AMT_Example_occ .
+
+org: a voaf:Vocabulary ;
+    rdfs:label "org Vocabulary"@en ;
+    vann:preferredNamespacePrefix "org"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/org#"^^xsd:anyURI ;
+    voaf:usageInDataset org:_AMT_Example_occ .
+
+prov: a voaf:Vocabulary ;
+    rdfs:label "W3C Provenance Ontology"@en ;
+    vann:preferredNamespacePrefix "prov"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/prov#"^^xsd:anyURI ;
+    voaf:usageInDataset prov:_AMT_Example_occ .
+
+sh: a voaf:Vocabulary ;
+    rdfs:label "Shapes Constraint Language (SHACL)"@en ;
+    vann:preferredNamespacePrefix "sh"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/shacl#"^^xsd:anyURI ;
+    voaf:usageInDataset sh:_AMT_Example_occ .
+
+sosa: a voaf:Vocabulary ;
+    rdfs:label "Sensor, Observation, Sample, and Actuator (SOSA) Ontology"@en ;
+    vann:preferredNamespacePrefix "sosa"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/sosa/"^^xsd:anyURI ;
+    voaf:usageInDataset sosa:_AMT_Example_occ .
+
+ssn: a voaf:Vocabulary ;
+    rdfs:label "ssn Vocabulary"@en ;
+    vann:preferredNamespacePrefix "ssn"^^xsd:string ;
+    vann:preferredNamespaceUri "http://www.w3.org/ns/ssn/"^^xsd:anyURI ;
+    voaf:usageInDataset ssn:_AMT_Example_occ .
+
+<http://www.wikidata.org/entity/Q121810372> rdfs:label "geospatial data"@en .
+
+foaf: a voaf:Vocabulary ;
+    rdfs:label "Friend Of A Friend Ontology"@en ;
+    vann:preferredNamespacePrefix "foaf"^^xsd:string ;
+    vann:preferredNamespaceUri "http://xmlns.com/foaf/0.1/"^^xsd:anyURI ;
+    voaf:usageInDataset foaf:_AMT_Example_occ .
+
+foaf:Person rdfs:label "Person"@en .
+
+brick: a voaf:Vocabulary ;
+    rdfs:label "brick Vocabulary"@en ;
+    vann:preferredNamespacePrefix "brick"^^xsd:string ;
+    vann:preferredNamespaceUri "https://brickschema.org/schema/Brick#"^^xsd:anyURI ;
+    voaf:usageInDataset brick:_AMT_Example_occ .
+
+schema: a voaf:Vocabulary ;
+    rdfs:label "schema Vocabulary"@en ;
+    vann:preferredNamespacePrefix "schema"^^xsd:string ;
+    vann:preferredNamespaceUri "https://schema.org/"^^xsd:anyURI ;
+    voaf:usageInDataset schema:_AMT_Example_occ .
+
+wgs: a voaf:Vocabulary ;
+    rdfs:label "wgs Vocabulary"@en ;
+    vann:preferredNamespacePrefix "wgs"^^xsd:string ;
+    vann:preferredNamespaceUri "https://www.w3.org/2003/01/geo/wgs84_pos#"^^xsd:anyURI ;
+    voaf:usageInDataset wgs:_AMT_Example_occ .
+
+<http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example> a void:Dataset,
+        adms:Asset ;
+    rdfs:label "AMT_Example"@en ;
+    vext:averageLiteralLength 1 ;
+    vext:averageObjectIRILength 49 ;
+    vext:averagePropertyIRILength 50 ;
+    vext:averageSubjectIRILength 40 ;
+    vext:datatypes 1 ;
+    vext:distinctBlankNodes 14 ;
+    vext:distinctIRIReferences 40 ;
+    vext:distinctLiterals 5 ;
+    vext:distinctRDFNodes 59 ;
+    vext:languages 0 ;
+    vext:propertyClasses 0 ;
+    dc:language <http://www.lexvo.org/page/iso639-1/en> ;
+    dcterms:modified "2024-05-01T17:52:42"^^xsd:dateTime ;
+    dcterms:subject <http://dbpedia.org/resource/Location>,
+        <http://dbpedia.org/resource/OGC_GeoSPARQL>,
+        <http://dbpedia.org/resource/Time>,
+        <http://www.wikidata.org/entity/Q121810372>,
+        foaf:Person ;
+    dcterms:title "AMT_Example"@en ;
+    vann:preferredNamespacePrefix "amttest"^^xsd:string ;
+    vann:preferredNamespaceUri "http://leiza-scit.sparqlunicorn.cloud/amttest/"^^xsd:anyURI ;
+    void:classes 0 ;
+    void:dataDump <https://leiza-scit.github.io/deRSE24-amt//index.ttl> ;
+    void:distinctObjects 16 ;
+    void:distinctSubjects 18 ;
+    void:entities 19 ;
+    void:feature <http://www.w3.org/ns/formats/RDFa>,
+        <http://www.w3.org/ns/formats/Turtle> ;
+    void:properties 6 ;
+    void:propertyPartition <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_instanceOf>,
+        <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_label>,
+        <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_object>,
+        <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_predicate>,
+        <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_subject>,
+        <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_weight> ;
+    void:triples 82 ;
+    void:uriSpace "http://leiza-scit.sparqlunicorn.cloud/amttest/"^^xsd:string ;
+    void:vocabulary vext:,
+        dcam:,
+        dcmitype:,
+        dc:,
+        dcterms:,
+        qb:,
+        vann:,
+        voaf:,
+        void:,
+        doap:,
+        geo:,
+        rdf:,
+        rdfs:,
+        xsd:,
+        owl:,
+        skos:,
+        time:,
+        xml:,
+        adms:,
+        csvw:,
+        dcat:,
+        prof:,
+        odrl:,
+        org:,
+        prov:,
+        sh:,
+        sosa:,
+        ssn:,
+        foaf:,
+        brick:,
+        schema:,
+        wgs: ;
+    dcat:distribution <http://leiza-scit.sparqlunicorn.cloud/amttest/AMT_Example_dist_ttl> ;
+    dcat:keyword "Location"@en,
+        "OGC GeoSPARQL"@en,
+        "Person"@en,
+        "Q121810372"@en,
+        "Time"@en ;
+    dcat:landingPage <https://leiza-scit.github.io/deRSE24-amt/> ;
+    foaf:homepage <https://leiza-scit.github.io/deRSE24-amt/> ;
+    foaf:page <https://leiza-scit.github.io/deRSE24-amt//index.html> .
+
